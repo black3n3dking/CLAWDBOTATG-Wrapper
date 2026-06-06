@@ -31,3 +31,61 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Android / Gradle
+.gradle/
+build/
+*/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.crt
+*.der
+service-account*.json
+firebase-service-account*.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+.gradle/
+build/
+*/build/
+local.properties
+
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+.env
+.env.*
+*.pem
+*.key
+*.p12
+service-account*.json
+firebase-service-account*.json
+
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
